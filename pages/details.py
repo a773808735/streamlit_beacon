@@ -177,7 +177,7 @@ def plotting_demo(name):
     col4.metric("pulls", "{:.2f}".format(mean_pull))
     col5.metric("contributors", "{:.2f}".format(mean_con))
 
-    st.write("## Raw data virolization")
+    st.write("## Raw data visualization")
     num_cols = df.select_dtypes(
         include=[np.number]
     ).columns.tolist()  # Gets all numeric columns
